@@ -9,5 +9,6 @@ print(f"{favcolorcaps}? ME TOO! I really love {favcolor} infact a wall in my roo
 
 cans_per_pack = int(input("How many cans are there in a pack?:"))
 packs = int(input("How many packs are there?:"))
-print(packs * cans_per_pack)
+totalcans = packs * cans_per_pack
+print(f"There is a total of {totalcans} cans.")
 
