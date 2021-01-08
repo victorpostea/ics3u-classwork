@@ -23,9 +23,6 @@ def take_name():
 
 
 def name_message():
-    name = " "
-    while True:
-        try
     name = input("What's your name?: ")
     return (f"Hello {name}. Welcome to the Markbook Program.")
 
